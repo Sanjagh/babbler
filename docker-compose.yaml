@@ -1,0 +1,9 @@
+version: '2.0'
+
+services:
+  babbler:
+    build: .
+    image: dock.skul.io/babbler
+    container_name: babbler
+    hostname: babbler
+    
